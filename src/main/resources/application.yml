@@ -1,0 +1,26 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.28.8.149:19998/eureka/
+  instance:
+    appname: spring-template
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 60
+    lease-expiration-duration-in-seconds: 60
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}
+server:
+  port: 9013
+  tomcat:
+    max-connections: 1000
+
+spring:
+  application:
+    name: spring-template
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+#线程数
+pool:
+  core: 2 #执行发送的线程数
+  queue: 50 #等候排队数
