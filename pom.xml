@@ -14,7 +14,7 @@
     <name>spring-template</name>
     <description>spring-template</description>
     <properties>
-        <java.version>21</java.version>
+        <java.version>18</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -35,10 +35,14 @@
     </dependencies>
 
     <build>
+        <finalName>java-ccos</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <outputDirectory>deploy/java-ccos</outputDirectory>
+                </configuration>
             </plugin>
         </plugins>
     </build>
