@@ -1,16 +1,14 @@
 package spring.com.springtemplate.controller;
+import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
-import javax.annotation.Resource;
-import com.alibaba.fastjson.JSON;
-import spring.com.springtemplate.enums.DeviceAccessType;
-import spring.com.springtemplate.enums.DeviceTye;
 import spring.com.springtemplate.mapper.HdsDeviceTokenMapper;
 import spring.com.springtemplate.pojo.dto.DeviceTokenDTO;
 import spring.com.springtemplate.pojo.entity.HdsDeviceTokenEntity;
 import spring.com.springtemplate.service.impl.SampleServiceImpl;
 import spring.com.springtemplate.vo.Result;
 
+import javax.annotation.Resource;
 import java.time.LocalDateTime;
 /**
  * @Author qiang.long

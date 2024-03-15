@@ -1,6 +1,7 @@
 package spring.com.springtemplate.vo;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import spring.com.springtemplate.enums.ErrorCode;
+
 import java.io.Serializable;
 /**
  * @Author qiang.long

@@ -1,6 +1,5 @@
 package spring.com.springtemplate.enums;
 import lombok.Getter;
-import org.apache.ibatis.plugin.Interceptor;
 /**
  * @Author qiang.long
  * @Date 2024/03/15

@@ -1,6 +1,5 @@
 package spring.com.springtemplate.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import spring.com.springtemplate.pojo.entity.HdsDeviceTokenEntity;
